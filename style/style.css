@@ -1,12 +1,159 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F3F1FF;
+    margin: 0;
+}
+/* Header section */
+
+.header-section{
+    background-color: #562EFF;
+}
+.header-logo{
+    display: flex;
+}
+.header-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+.header-logo h2 {
+    color: white;
+    margin-left: 10px;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.header-logo img{
+    width: 50px;
+    height: 60px;
+}
+.top-header {
+    width: 870px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+/* common styles or utilities */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-title {
+    font-size: 20px;
+    color: #562EFF;
+    
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    margin: 0 auto;
+}
+.top-players{
+    margin: 10px 20px;
+    padding-bottom: 30px;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 .player{
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 .player img{
     width: 56px;
     height: 56px;
+}
+hr{
+    border: 1px solid rgba(94, 92, 92, 0.186);
+}
+
+/* top-blog section */
+.top-blog{
+    margin: 10px 20px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.blogs-content{
+    display: flex;
+}
+.blogs-img{
+    width: 50%;
+}
+.blogs-info{
+    display: grid;
+    width: 50%;
+}
+.blogs-img img{
+    width: 100%;
+}
+.blogs-info h3{
+    font-size: 20px;
+    margin: 10px 15px;
+}
+.blogs-info p{
+    margin-left: 15px;
+}
+.blogs-info span{
+    color: #562EFF;
+}
+/* Lates Course section */
+.lates-course{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.course-title{
+    font-size: 20px;
+    color: #562EFF;
+    margin: 20px 20px;
+}
+.main-course{
+    display: flex;
+}
+.course-1 {
+    margin-left: 20px;
+}
+.course-img img{
+    width: 90%;
+}
+.course-info h2{
+    font-size: 20px;
+}
+.course-info p{
+    color: #ED6B4F;
+}
+.course-icon {
+    display: flex;
+    align-items: center;
+}
+.course-icon p{
+    margin: 0 20px;
+    
+}
+.course-icon .color{
+    color: #FFC014;
+}
+.course-icon .no-color{
+    color: #AEAEAE;
+}
+.time {
+    background-color: #ffe4e8;
+    padding: 5px;
+    border-radius: 15px;
+    color: #ED6B4F;
 }
